@@ -1,5 +1,5 @@
 variable "env" {
-  default = "stag"
+  default = "dev"
 }
 
 variable "vpc_cidr" {
@@ -23,5 +23,6 @@ variable "private_subnet_cidrs" {
 variable "private_subnet_cidrs_db" {
   default = "10.0.33.0/24"
 }
+
 
 
